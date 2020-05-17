@@ -1,0 +1,44 @@
+/* Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap */
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 1200px) {}
+/* Small devices (landscape phones, 576px and up)*/
+
+/*Large devices (desktops, 992px and up)*/
+@media (max-width: 992px) {
+    div.typing-text {
+        font-size: 6.4em;
+    }
+    .card {
+        padding: 35px;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    div.typing-text {
+        margin-top: 55px;
+        font-size: 4em;
+    }
+    div.typing-content{
+    max-height: 40vh;
+    }
+    div#start-proj {
+        min-width: 100%;
+        text-align: center;
+    }
+    div.container {
+        padding: 0;
+    }
+#proj-para {
+    max-width:100vw;
+    padding: 10px;
+    margin-left:0px;
+}
+    @media (max-width: 576px) {
+        
+    }
+
+
+}

@@ -1,0 +1,45 @@
+/*adds bckgrnd color,removes margins and padding from this particular list*/
+ul.traditional-navigation-bar {
+    display: inline;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+#logo-nav-item {
+    float: left;
+}
+
+/* makes list items align */
+ul.traditional-navigation-bar li {
+    float: right;
+}
+
+/* style for link list items */
+ul.traditional-navigation-bar li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 16px;
+    transition: 0.4s;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+}
+
+/*changes background when hovered over */
+ul.traditional-navigation-bar li a:hover {
+    background-color: #53565f;
+    color: white;
+}
+
+/*hides icon until screen becomes too small */
+ul.traditional-navigation-bar li.icon0 {
+    display: none;
+}
+
+.custom-section {
+    height: 350px;
+    width: 100%;
+    padding: 14px 16px;
+    display: inline-block;
+}

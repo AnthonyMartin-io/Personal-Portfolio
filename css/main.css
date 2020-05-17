@@ -1,0 +1,14 @@
+div.typing-content{
+height: 35vh;
+width: 80vw;
+margin: 0;
+padding: 0;
+}
+div.typing-text {
+    font-size: 7.4em;
+    margin-top: 25px;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+
+}
